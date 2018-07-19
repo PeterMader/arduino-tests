@@ -1,0 +1,7 @@
+tft.drawRect(width, height, x, y);
+tft.drawPixel(x, y, color);
+tft.setCursor(0, 0);
+tft.setTextColor(ST7735_WHITE);
+tft.setTextWrap(true);
+
+tft.print("Game over");
